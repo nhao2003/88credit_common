@@ -3,7 +3,7 @@ import {
   registerDecorator,
   ValidationArguments,
 } from 'class-validator';
-import { QueryFilterType, QueryOperator } from 'src/query';
+import { QueryFilterType, QueryOperator } from 'src/common/query';
 
 export function IsQueryFilter(
   validationOptions?: ValidationOptions & {
