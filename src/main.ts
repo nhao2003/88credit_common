@@ -1,8 +1,6 @@
-import { NestFactory } from '@nestjs/core';
-import { AppModule } from './app.module';
-
-async function bootstrap() {
-  const app = await NestFactory.create(AppModule);
-  await app.listen(3000);
-}
-bootstrap();
+export * from './constants';
+export * from './decorators';
+export * from './interceptors';
+export * from './guards';
+export * from './query';
+export * from './types';
